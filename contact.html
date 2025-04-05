@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/contactus.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- FONTS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Luckiest+Guy&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+        <!-- HEADER SECTION STARTS FROM HERE -->
+        <header id="header">
+            <div id="logo" class="slideIn">
+                <img src="images/618986.png" alt="ferris wheel" class="ferris-wheel">
+                <h2 class="h2-header luckiest-guy-regular ">AMUSEMENT PARK</h2>
+            </div>
+        <nav id="nav">
+            <ul id="navbar" class="slideIn">
+                <li><a href="index.html" class="cantarell-regular">Home</a></li>
+                <li><a href="#" class="cantarell-regular">Services</a></li>
+                <li><a href="about.html" class="cantarell-regular">About</a></li>
+                <li><a href="contact.html" class="cantarell-regular">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="our-handles poppins-thin slideIn">
+            <a href="#" class="insta"><i class="fa-brands fa-instagram"></i><span class="insta-span">AmusementPark</span></a>
+            <a href="#" class="facebook"><i class="fa-brands fa-facebook"></i><span class="fb-span">AmusementPark</span></a>
+        </div>
+        
+        <div class="login-button slideIn">
+            <a href="login.html"><button class="login-button"><i class="fa-regular fa-user fa-bounce"></i>LOGIN</button></a>
+        </div>
+    </header>
+    <!-- HEADER SECTION ENDS HERE -->
+    <div class="contactus-main">
+        <div class="contactus slideIn">
+            <h1 class="h1-primary cantarell-regular">Contact Us</h1>
+            <form action="contactus.php" method="post">
+                <input type="text" id="name" placeholder="First Name" required>
+                <input type="text" id="lastname" placeholder="Last Name" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="number" id="number" placeholder="Phone Number" required>
+                <h4>Type Your Message here...</h4>
+                <textarea id="message" required></textarea>
+                <button type="submit" name="submit">Send</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

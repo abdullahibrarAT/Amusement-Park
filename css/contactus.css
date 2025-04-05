@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#header{
+    color: #000;
+}
+/* ///////////// */
+.contactus-main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    background: url('../images/header1.avif') no-repeat center center/cover;
+}
+.contactus{
+    width: 670px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    flex-wrap: wrap;
+    padding-left: 20px;
+}
+.contactus h1{
+    color: #000;
+    font-weight: 650;
+    margin: 20px 0;
+    width: 500px;
+    text-align: center;
+}
+.contactus form input{
+    width: 290px;
+    height: 20px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background: none;
+    border-bottom: 2px solid #fff;
+}
+.contactus form input::placeholder{
+    color: #000;
+}
+.contactus form #lastname,
+.contactus form #number{
+    margin-left: 20px;
+}
+.contactus form #name,
+.contactus form #lastname,
+.contactus form #email,
+.contactus form #number{
+    margin-bottom: 30px;
+}
+.contactus form h4{
+    color: #000;
+    font-weight: 300;
+    width: 600px;
+    margin-top: 10px;
+}
+.contactus form textarea{
+    background: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    font-weight: 200;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    min-width: 600px;
+    max-width: 600px;
+    min-height: 80px;
+    max-height: 80px;
+}
+textarea::-webkit-scrollbar{
+    width: 1em;
+    cursor:crosshair;
+}
+textarea::-webkit-scrollbar-thumb{
+    background-color: #1dbb86;
+    border-radius: 10px;
+    cursor: crosshair;
+}
+.contactus form button{
+    background: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #333;
+    width: 100px;
+    padding: 0;
+    margin-right: 500px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+.contactus form button:hover{
+    opacity: 0.7;
+}
